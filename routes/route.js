@@ -16,7 +16,7 @@ const checkAuth = require("../middleware/checkAuth");
 
 // Home route
 router.get("/", (req, res) => {
-	res.send("Server is up and running...");
+	res.send("hello this is root endpoint...");
 });
 
 // Admin routes
